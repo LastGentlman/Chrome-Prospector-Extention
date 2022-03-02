@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 5px 10px; /*first is top&butom and second arp sides*/
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+
+#del-btn {
+    background: white;
+    color: #5f9341;    
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0px;
+}
+
+li a, a:focus, a:active {
+    color: #5f9341;
+}
+
+li a:hover {
+    background: #5f9341;
+    color: white;
+    font-weight: bold;
+}
